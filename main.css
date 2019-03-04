@@ -1,88 +1,87 @@
+@import url('http://fonts.googleapis.com/css?family=');
 @charset "UTF-8";
 /* CSS Document */
-
-/* Initial body */
-body {
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+html {
+	height:100%;
 }
 
+/* Initial Body */
+body {
+	left:0;
+	margin:0;
+	overflow:hidden;
+	position:relative;
+	height:100%;
+}
+
+/* Initial Menu */
+
 .nav {
-	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#FFFBF0;
+	left: -285px; /*start off behind the scenes */
+	height: 100%;
+	position:fixed;
+	width: 285px;
+}
+
+
+/* styling */
+
+.icon-menu {
+	color:#FFF;
+	cursor: pointer;
+	font-family: 'Avenir', sans-serif;
+	font-size:16px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top:-10px;
+	width:70px;
+}
+
+
+.maintext {
+	font-family:'Avenir', sans-serif;
 	color:#000;
-	background-color:#FFF;
-	padding-top:10px;
-	height:0px;
-	font-weight:bold;
-	
-	
+	margin-left:50px;
+}
+
+.footer {
+	font-family:'Avenir',sans-serif;
+	position: absolute;
+	bottom:0;
+}
+
+.footer p {
+	font-size:14px;
+	color:#000
+}
+
+/* format menu */
+
+.nav ul {
+	list-style:none;
+	margin:0;
+	padding-top:0px;
+	position:relative;
+	top:20px;
+	left:0px;
+	padding-left:0px;
+	border-top: #A0A0A4 solid 1px;
 }
 
 .nav li {
-	display:inline;
-	margin-top:10px;
-	margin-left:10px;
-	color:#000;
-	text-transform:lowercase;
-}
-
-.nav .container .left {
-	float:left;
-	margin-left:-35px;
-}
-
-.nav .container .right {
-	float:right;
-}
-
-.nav a:hover {
-	color:#55BFFF;
-	text-decoration:none;
-}
-
-.nav a:link {
-	text-decoration:none;
+	font-family:'Avenir',sans-serif;
+	padding-bottom: 3px;
+	padding-left:20px;
+	padding-top:3px;
+	border-bottom: #A0A0A4 solid 1px; 
 }
 
 .nav a {
 	color:#000;
+	font-size:14px;
+	text-decoration:none;
 }
-
-
-.jumbotron {
-	background-image:url(images/bg_notext.jpg);
-	margin-top:30px;
-	height:595px
-}
-
-.jumbotron .container {
-	margin-top:50px;
-}
-
-.row .col-md-4 p {
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	color:#000;
-	border: black solid 1px;
-	width:100px;
-}
-
-.row .col-md-4 img {
-	height:200px;
-	width:300px;
-	margin-left:auto;
-	margin-right:auto;
-	
-	
-}
-
-.footer {
-	height:10px;
-	margin-top:-15px;
-}
-
-.footer p {
-	font-size:12px;
