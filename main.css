@@ -56,7 +56,9 @@ body {
 	font-family:'Avenir',sans-serif;
 	position: absolute;
 	bottom:0;
-	left:10px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
 }
 
 .footer p {
@@ -121,4 +123,11 @@ body {
   border: 0px solid black;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.align-left {
+	float:left;
+}
+.align-right {
+	float:right;
 }
