@@ -1,16 +1,3 @@
-.jumbotron {
-	background-image: url(images/bg_notext.jpg);
-	height: 100%;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-}
-
-.maintext {
-  margin: 30px;
-  background-color: #F5F5F5;
-  border: 0px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+body {
+  background-image: url(images/bg_notext.JPG); 
 }
