@@ -1,2 +1,2 @@
 # akshairajendran
-My personal webpage
+My personal webpage...photos, projects, updates, etc.
